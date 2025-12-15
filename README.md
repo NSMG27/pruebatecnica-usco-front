@@ -1,4 +1,56 @@
-# PruebatecnicaFront
+## ▶️ Ejecución del Frontend
+
+### Requisitos
+
+- Node.js 18 o superior  
+- npm o yarn  
+
+### Pasos
+
+1. Clonar el repositorio del frontend
+
+```bash
+git clone https://github.com/NSMG27/pruebatecnica-usco-front.git
+```
+
+2. Entrar al proyecto frontend
+
+```bash
+cd frontend
+```
+
+3. Instalar dependencias
+
+```bash
+npm install
+```
+
+4. Ejecutar la aplicación
+
+```bash
+npm run dev
+```
+
+📍 El frontend quedará disponible en:
+
+```
+http://localhost:4200
+```
+
+---
+
+## 🌐 Configuración del Frontend
+
+Archivo `.env`
+
+```env
+apiUrl = http://localhost:8080
+```
+
+---
+
+
+# Pruebatecnica-Front
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
 
