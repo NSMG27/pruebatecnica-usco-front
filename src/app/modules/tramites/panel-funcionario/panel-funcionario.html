@@ -1,1 +1,38 @@
-<router-outlet />
+<div class="min-h-screen bg-gray-100 flex">
+
+  <!-- SIDEBAR -->
+  <aside class="w-64 bg-indigo-700 text-white flex flex-col">
+    <div class="px-6 py-4 text-xl font-bold">
+      Panel Funcionario
+    </div>
+
+    <nav class="flex-1 px-4 space-y-2">
+      <a
+        routerLink="/"
+        routerLinkActive="bg-indigo-600"
+        class="block px-4 py-2 rounded hover:bg-indigo-600"
+      >
+        Dashboard
+      </a>
+
+      <a
+        routerLink="/tramites/radicar"
+        routerLinkActive="bg-indigo-600"
+        class="block px-4 py-2 rounded hover:bg-indigo-600"
+      >
+        Radicar trámite
+      </a>
+    </nav>
+
+    <div class="p-4 border-t border-indigo-600 text-sm">
+      Funcionario
+    </div>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="flex-1 p-6">
+    <router-outlet />
+  </main>
+
+</div>
+

@@ -1,1 +1,60 @@
-<p>radicacion works!</p>
+<div class="max-w-2xl mx-auto bg-white p-8 rounded shadow">
+
+  <h1 class="text-2xl font-bold mb-6 text-gray-800">
+    Radicación de trámite
+  </h1>
+
+  <form class="space-y-6">
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">
+        Nombre del solicitante
+      </label>
+      <input
+        type="text"
+        class="mt-1 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+      />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">
+        Tipo de trámite
+      </label>
+      <select
+        class="mt-1 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+      >
+        <option>Certificado</option>
+        <option>Solicitud</option>
+        <option>Queja</option>
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700">
+        Descripción
+      </label>
+      <textarea
+        rows="4"
+        class="mt-1 block w-full rounded border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+      ></textarea>
+    </div>
+
+    <div class="flex justify-end gap-4">
+      <button
+        type="button"
+        class="px-4 py-2 rounded border text-gray-700 hover:bg-gray-100"
+      >
+        Cancelar
+      </button>
+
+      <button
+        type="submit"
+        class="px-4 py-2 rounded bg-indigo-600 text-white hover:bg-indigo-500"
+      >
+        Radicar
+      </button>
+    </div>
+
+  </form>
+
+</div>

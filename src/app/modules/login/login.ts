@@ -29,7 +29,7 @@ export class Login {
 
   this.loginService.login(this.loginForm.getRawValue()).subscribe({
     next: (res) => {
-      //this.router.navigate(['/dashboard']);
+      this.router.navigate(['/dashboard']);
     },
     error: (err) => {
       console.error('Error de autenticación', err);
